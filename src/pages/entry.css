@@ -1,0 +1,166 @@
+.recond_form{
+    padding: 100px 318px 131px 322px;
+    width: 1901px;
+    height: 1950px;
+    margin: 0 auto 0 auto;
+    background-image: url(../components/img/Frame_3.png) !important;
+}
+.recond_form h1{
+    margin: 0 auto 0 auto;
+    width: 747px;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+
+    color: #FFFFFF;
+}
+.recond_form h2{
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.recond_form h3{
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.recond_form h5{
+    width: 625px;
+    margin: 10px auto 0 auto;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+.recond_form article{
+    margin: 20px auto 0 auto;
+    height: 950px;
+    width: 1280px;
+    padding: 40px 277px 63px 293px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.recond_form input{
+    margin: 20px 15% 20px 15%;
+    height: 40px;
+    width: 500px;
+    border-radius: 0px;
+    border: 1px solid white;
+    outline:none;
+}
+select{
+    margin: 20px 0 20px 0;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border-radius: 0px;
+    border: 1px solid white;
+    -webkit-appearance: none;
+}
+.entry .carousel{
+    display: none !important;
+}
+.entry #head{
+    height: 190px;
+}
+.entry header{
+    padding: 26px 3% 5px 3%;
+    height: 190px;
+    background-image: url(../components/img/bn1.png);
+}
+.entry nav{
+    padding: 60px 30% 0 30%;
+}
+#recond_services{
+    display: flex;
+    margin: 0 auto 0 auto;
+    justify-content: space-between;
+    width: 518px;
+}
+#sketch_description{
+    margin: 26px auto 15px auto;
+    width: 700px;
+    height: 230px;
+}
+#file{
+    outline: none;
+    border: 0;
+    margin: 0;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+.QQ{
+    padding: 50px 0 50px 0;
+    background-image: url(../components/img/questions.png);
+    width: 1280px;
+    height: 550px;
+}
+.QQ .shadow{
+    padding: 70px 293px 99px 289px;
+    width: 1280px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.59);
+}
+.black_line{
+    width: 1280px;
+    height: 100px;
+    background: black;
+}
+.QQ h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+
+    color: #FFFFFF;
+}
+.QQ h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+}
+.QQ input{
+    margin: 0px 15% 0px 15%;
+    padding-left: 50px;
+    width: 500px;
+    height: 100px;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+}
+.QQ .black_line{
+    margin: 0 15% 0 15%;
+    width: 500px;
+    height: 20px;
+    background: black;
+}

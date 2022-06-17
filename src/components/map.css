@@ -1,0 +1,89 @@
+#map{
+    margin: 0 auto 0 auto;
+    width: 1901px;
+    height: 600px;
+}
+#map img{
+    width: 1901px;
+    height: 601px;
+}
+#contact{
+    padding: 39px 0 38px 0;
+    width: 1901px;
+    height: 170px;
+    margin: 0 auto 0 auto;
+    background: black;
+}
+h2{
+    text-align: center;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+}
+#address{
+    margin-top: 5px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+#address img{
+    margin: 0 2.5px 0 2.5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+footer{
+    margin: 0 auto 0 auto;
+    padding: 36px 60px 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 1901px;
+    height: 160px;
+    background: #101214;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+#links{
+    width: 330px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 30px 261px;
+    grid-template-rows: repeat(2,30px);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+#links p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+#Zhuk{
+    margin-top: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}

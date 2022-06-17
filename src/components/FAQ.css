@@ -1,0 +1,37 @@
+.FAQ{
+    margin: 0 auto 0 auto;
+    height: 445px;
+    width: 1901px;
+    display: flex;
+    cursor: pointer;
+}
+.FAQ img{
+    width: 634px;
+}
+.FAQ .block{
+    position: relative;
+    height: 445px;
+}
+.FAQ p{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.color{
+    filter: grayscale(1);
+}
+.color:hover{
+    filter: grayscale(0)
+}

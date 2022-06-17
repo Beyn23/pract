@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+p{
+    margin: 0;
+}
+body{
+    background: rgba(0, 0, 0, 0.74) !important;
+}
+#head{
+    height: 679px;
+}
+header{
+    width: 1901px;
+    margin: auto;
+    height: 140px;
+    /* background: #28212F; */
+    padding: 26px 3% 26px 3%;
+    color:white;
+    position: static;
+    /* background-image: url('img/bn1.png'); */
+    z-index: 2;
+    position: relative;
+}
+.city_and_record{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city_and_record button{
+    border:3px solid #365065;
+    border-radius: 25px;
+
+    width: 150px;
+    height: 30px;
+
+    background: #365065;
+    color:white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.city_and_record button p{
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    position: relative;
+    bottom: 3px;
+
+    text-align: center;
+    cursor: pointer;
+}
+.city_and_record button:hover{
+    border:3px solid #365065;
+    border-radius: 25px;
+    background: transparent;
+}
+
+#city{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 0px;
+    width: 205px;
+    height: 20px;
+}
+#city img{
+    margin: 0 24px 0 0;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+}
+#city p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 24px 0 0;
+}
+nav{
+    margin-top: 10px;
+    display: flex ;
+    justify-content: space-between !important;
+    padding: 0 30% 0 30%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#city a{
+    width: 30px;
+    height: 30px;
+}
+nav a:hover{
+    color: white;
+}
+.line{
+    margin: 0 auto 0 auto;
+    width: 1250px;
+    height: 2px;
+    border: 2px solid white;
+    background: white;
+}
+#logo{
+    height: 50px;
+}
+#b_lk{
+    display: none;
+}
+.entry #b_lk{
+    display: block;
+}
+.entry #b_rec{
+    display: none;
+}

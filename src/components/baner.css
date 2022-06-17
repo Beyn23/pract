@@ -1,0 +1,60 @@
+.carousel{
+    width: 1901px;
+    height: 700px;
+    margin: auto;
+    z-index: 1;
+    bottom: 155px;
+}
+.carousel img{
+    min-width: 100%;
+}
+#baner_inf1{
+    width: 450px;
+    height: 240px;
+    position: absolute;
+    padding: 52px 36px 100px 44px;
+    text-align: left;
+
+    left: 200px;
+    bottom: 145px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.baner_headline{
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+}
+.baner_information{
+    margin-top: 18px;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#baner_inf2{
+    width: 450px;
+    height: 240px;
+    position: absolute;
+    padding: 52px 36px 100px 44px;
+    text-align: left;
+
+    bottom: 145px;
+    left: 750px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.carousel-indicators [data-bs-target] {
+    width: 30px !important;
+    height: 30px !important;
+    position: relative;
+    top: 10px;
+    border-radius: 50%;
+}

@@ -1,0 +1,129 @@
+.master .carousel{
+    display: none !important;
+}
+.master{
+    width: 1901px;
+    height: 679px;
+    margin: 0 auto 0 auto;
+    background-image: url(../../components/img/bn1.png);
+}
+.name_master{
+    position: relative;
+    width: 1901px;
+    height: 230px;
+    bottom: 420px;
+    text-align: center;
+    padding: 44px 0 45px 0;
+    color: white;
+
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.name_master h1{
+    margin: 0;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.name_master .line{
+    margin: 13px auto 13px auto;
+    width: 550px;
+}
+.name_master p{
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+
+    text-align: center;
+}
+#record_master{
+    position: relative;
+    left: 830px;
+    bottom: 267px;
+    width: 200px;
+    height: 72px;
+    border: 3px solid #365065;
+    color: white;
+    cursor: pointer;
+
+    background: #365065;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#record_master p{
+    position: relative;
+    top: 7px;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+}
+.master main{
+    height: 2539px;
+    background-image: url(../../components/img/Frame_3.png);
+}
+#biography{
+    display: flex;
+
+    position: relative;
+    bottom: 220px;
+    margin: 0 auto 0 auto;
+    height: 949px;
+    width: 1275px;
+    color: white;
+
+    background: rgba(0, 0, 0, 0.18);
+}
+.gallery{
+    position: relative;
+    bottom: 100px;
+}
+#biography article{
+    padding: 78px  0 0 50px;
+    width: 624px;
+}
+#biography p{
+    width: 510px;
+    height: 570px;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#biography h4{
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#biography .line{
+    width: 400px;
+    height: 3px;
+}
+#social{
+    margin: 20px auto 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content:space-between;
+}
+#biography article img{
+    width: 60px;
+    height: 60px;
+}

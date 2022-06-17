@@ -1,0 +1,79 @@
+#masters{
+    padding-top: 30px;
+    width: 1901px;
+    height: 970px;
+    margin: auto;
+    background-image: url(img/Frame_3.png);
+}
+h1{
+    margin: 0px 0px 40px 470px;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+
+    color: #E5E6E7;
+}
+#master_table{
+    margin: 50px auto 0 auto;
+    width: 1010px;
+    height: 760px;
+    display: grid;
+    grid-template-columns: repeat(3,270px);
+    grid-template-rows: repeat(2,330px);
+    grid-column-gap:100px;
+    grid-row-gap:100px;
+}
+#master_table h2{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #FFFFFF;
+}
+#master_table p{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+
+    color: #FFFFFF;
+}
+#master_table img{
+    width: 200px;
+    height: 200px;
+}
+.circle{
+    margin: 0 auto 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+.info{
+    display: none;
+    position: relative;
+    bottom: 100px;
+    height: 100px;
+	width: 100%;
+    transition: 5s;
+    background: rgba(0,0,0,0.5);
+}
+.circle:hover .info {
+    display:block;
+    transition: 0.05s;
+}
+.info p{
+    cursor: pointer;
+}
+.info a{
+    text-decoration: none;
+}
